@@ -1,0 +1,88 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Kells SD';
+    src: url('kells-sd-cdnfonts/Kells_SD.ttf');
+    font-style: normal;
+    font-weight: normal;
+} 
+
+body {
+    background: url("jeremy-cai-mnF75FoPBWY-unsplash.jpg");
+    font-family: 'Kells SD';
+}
+
+header {
+    padding : 5px;
+    border-bottom: 1px solid rgb(79, 165, 199);
+    width : 80%;
+    margin : 0px auto 0px auto;
+    background: white;
+    opacity : 0.9;
+}
+
+main {
+    box-sizing: padding-box;
+    width : 80%;
+    padding : 5px;
+    margin : 0px auto 0px auto;
+    background : white;
+    opacity: 0.9;
+}
+
+footer {
+    width : 80%;
+    height : 100px;
+    padding : 5px;
+    margin : 0px auto 0px auto;
+    background: rgb(79, 165, 199);
+}
+
+main h2 {
+    width : 50%;
+    margin : 0px auto 0px 0px;
+    text-align :left;
+    border-bottom: 1px solid rgb(79, 165, 199);
+}
+
+main div {
+    padding: 5px; 
+    margin : 10px;
+}
+
+p {
+    padding : 10px;
+}
+
+ul {
+    padding : 10px;
+}
+
+#box {
+    height : 100px;
+    background: rgb(79, 165, 199);
+    border-bottom-right-radius: 20px ;
+    padding-left : 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+
+#box h1 {
+    color :white;
+}
+
+header img {
+    border-radius: 50%;
+    margin : -100px auto auto 25px ;
+    position :absolute;
+} 
+
+#info {
+    margin-left : 250px;
+}
+
